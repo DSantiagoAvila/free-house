@@ -23,7 +23,12 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-1.5 group">
+        <Link to="/" className="flex items-center gap-2 group">
+          <img
+            src="/logo-free-house.jpeg"
+            alt="Free House"
+            className="h-10 w-auto object-contain"
+          />
           <span className="font-display text-xl font-bold tracking-[0.2em] text-fh-offwhite uppercase">
             Free House
           </span>
