@@ -7,7 +7,7 @@ interface InstagramLinkProps {
 export function InstagramLink({ className = '' }: InstagramLinkProps) {
   return (
     <a
-      href={`https://instagram.com/${env.instagramHandle}`}
+      href={`https://www.instagram.com/${env.instagramHandle}/`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Instagram"
